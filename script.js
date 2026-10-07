@@ -38,5 +38,5 @@ if (quoteForm) quoteForm.addEventListener('submit', event => {
     form.get('message') || '—'
   ].join('\n');
   const subject = encodeURIComponent(t('Anfrage für ein kostenloses Angebot'));
-  window.location.href = `mailto:prohaus.service@hotmail.com?subject=${subject}&body=${encodeURIComponent(body)}`;
+  window.location.href = `mailto:fenster@prohaus.info?subject=${subject}&body=${encodeURIComponent(body)}`;
 });
